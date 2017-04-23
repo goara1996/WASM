@@ -9,13 +9,13 @@ static void Expressions()
 		scanf_s("%d", &a);
 		printf("Enter b: ");
 		scanf_s("%d", &b);
-	/*	_asm {
+		_asm {
 			mov eax, a
 			mov ecx, 5
 		m: 	add eax, b
 			loop m
 			mov sum, eax
-		}*/
+		}
 		printf("\n %d + 5 * %d = %d", a, b, sum);
 		getchar();
 		if (getchar() == (char)10) break;

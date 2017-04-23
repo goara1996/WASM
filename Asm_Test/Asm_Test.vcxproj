@@ -145,6 +145,7 @@
     <ClCompile Include="Expression.cpp" />
     <ClCompile Include="Floats.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Strlen.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
