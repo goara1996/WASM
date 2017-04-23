@@ -105,6 +105,6 @@ int main()
 	//printf("a + b = %g\n", addFloats((float)12.0, (float)0.345));
 	//printf("a + b = %g\n", addFloatsAsm((float)12.0, (float)0.345));
 	
-	_getch();
+	//_getch();
 	return 0;
 } 
